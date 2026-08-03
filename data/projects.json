@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "slug": "lead-generation-agent",
+    "title": "Lead Generation Agent",
+    "category": "Agentic AI",
+    "featured": true,
+    "description": "Agentic AI system that automates lead generation and qualification using LangChain workflows and Large Language Models.",
+    "technologies": [
+      "Python",
+      "LangChain",
+      "LLMs",
+      "AI Agents"
+    ],
+    "github": "https://github.com/samuel2004-pixel/lead_generation_agent",
+    "demo": "",
+    "image": "/images/projects/lead-generation.png"
+  },
+  {
+    "id": 2,
+    "slug": "ai-finance-bot",
+    "title": "AI Finance Bot",
+    "category": "Generative AI",
+    "featured": true,
+    "description": "Conversational finance assistant powered by Large Language Models for automated financial guidance and intelligent query handling.",
+    "technologies": [
+      "Python",
+      "LangChain",
+      "LLMs"
+    ],
+    "github": "https://github.com/samuel2004-pixel/finance-bot",
+    "demo": "",
+    "image": "/images/projects/finance-bot.png"
+  },
+  {
+    "id": 3,
+    "slug": "langchain-chatbot",
+    "title": "LangChain Chatbot",
+    "category": "RAG",
+    "featured": true,
+    "description": "Context-aware chatbot supporting multi-turn document-grounded conversations using Retrieval-Augmented Generation.",
+    "technologies": [
+      "Python",
+      "LangChain",
+      "RAG",
+      "LLMs"
+    ],
+    "github": "https://github.com/samuel2004-pixel/chat-bot-langchain",
+    "demo": "",
+    "image": "/images/projects/langchain-chatbot.png"
+  },
+  {
+    "id": 4,
+    "slug": "ai-health-assistant",
+    "title": "AI Health Assistant",
+    "category": "LLM Application",
+    "featured": true,
+    "description": "AI assistant that answers health-related questions using Large Language Models through a simple and interactive interface.",
+    "technologies": [
+      "Python",
+      "LLMs",
+      "Streamlit"
+    ],
+    "github": "https://github.com/samuel2004-pixel/health-assistant-",
+    "demo": "",
+    "image": "/images/projects/health-assistant.png"
+  },
+  {
+    "id": 5,
+    "slug": "traffic-congestion-simulator",
+    "title": "Traffic Congestion Simulator",
+    "category": "Machine Learning",
+    "featured": true,
+    "description": "Simulation model that analyzes freeway traffic congestion patterns to provide transportation insights using data analysis techniques.",
+    "technologies": [
+      "Python",
+      "Pandas",
+      "Matplotlib"
+    ],
+    "github": "https://github.com/samuel2004-pixel/traffic-Congestion-Simulator-for-Freeway-Corridors",
+    "demo": "",
+    "image": "/images/projects/traffic.png"
+  },
+  {
+    "id": 6,
+    "slug": "recommendation-insights-tool",
+    "title": "Recommendation & Insights Tool",
+    "category": "Data Science",
+    "featured": true,
+    "description": "Recommendation and analytics platform developed during internship to analyze customer data and generate personalized insights.",
+    "technologies": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Power BI"
+    ],
+    "github": "https://github.com/samuel2004-pixel",
+    "demo": "",
+    "image": "/images/projects/recommendation.png"
+  }
+]

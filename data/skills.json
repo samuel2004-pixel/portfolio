@@ -1,0 +1,52 @@
+{
+  "languages": [
+    "Python",
+    "SQL"
+  ],
+  "machineLearning": [
+    "Scikit-learn",
+    "PyTorch",
+    "TensorFlow",
+    "Deep Learning",
+    "Computer Vision"
+  ],
+  "generativeAI": [
+    "LLMs",
+    "RAG",
+    "LangChain",
+    "AI Agents",
+    "Prompt Engineering",
+    "FAISS",
+    "ChromaDB"
+  ],
+  "dataAnalysis": [
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Plotly",
+    "Power BI",
+    "Hugging Face Transformers",
+    "Speech-to-Text"
+  ],
+  "deployment": [
+    "Docker",
+    "Git",
+    "GitHub",
+    "Streamlit",
+    "FastAPI",
+    "MLflow",
+    "CI/CD"
+  ],
+  "databases": [
+    "MySQL",
+    "Apache Spark",
+    "AWS"
+  ],
+  "softSkills": [
+    "Analytical Thinking",
+    "Problem Solving",
+    "Communication",
+    "Team Collaboration",
+    "Fast Learner"
+  ]
+}
