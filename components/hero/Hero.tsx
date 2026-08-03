@@ -165,8 +165,18 @@ export default function Hero() {
 
                   <div className="mt-6 space-y-3">
 
-                    
-                  href="https://albo-fitness.com/"
+                    <a
+                      href="https://ywammut.up.railway.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex justify-between transition-colors hover:text-[#9A7B53]"
+                    >
+                      <span>YWAM Platform</span>
+                      <ArrowUpRight size={18} />
+                    </a>
+
+                    <a
+                      href="https://albo-fitness.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex justify-between transition-colors hover:text-[#9A7B53]"
@@ -174,16 +184,7 @@ export default function Hero() {
                       <span>Albofitness</span>
                       <ArrowUpRight size={18} />
                     </a>
-                  
-                     href="https://albo-fitness.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                       className="flex justify-between transition-colors hover:text-[#9A7B53]">
-                      <span>Albofitness</span>
-                      <ArrowUpRight size={18} />
-                    </a>
 
-           
                     <div className="flex justify-between">
                       <span>n8n Automation</span>
                       <ArrowUpRight size={18} />
