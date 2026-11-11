@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://samuelroshan.vercel.app"),
+  metadataBase: new URL("https://samuelroshanin.netlify.app"),
 
   title: {
-    default: "personal Resume",
+    default: "Samuel Roshan | AI Engineer",
     template: "%s | Samuel Roshan",
   },
 
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   creator: "Samuel Roshan",
 
   openGraph: {
-    title: "Samuel Roshan | AI Enthusiast",
+    title: "Samuel Roshan | AI Engineer",
     description:
       "Professional AI Portfolio showcasing projects, internship experience, skills and certifications.",
 
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Samuel Roshan |AI Enthusiast",
+    title: "Samuel Roshan | AI Engineer",
     description:
       "AI Portfolio | Machine Learning | Deep Learning | Generative AI",
 
@@ -99,7 +99,7 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
-      <body className="bg-[#F7F5F2] text-[#181818] antialiased">
+      <body className="bg-[#0A0E1A] text-[#E6F1FF] antialiased">
         <SmoothScroll>
           {children}
         </SmoothScroll>

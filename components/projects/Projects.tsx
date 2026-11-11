@@ -20,7 +20,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="bg-[#F7F5F2] py-36"
+      className="bg-[#0A0E1A] py-36"
     >
       <div className="relative mx-auto max-w-7xl px-8 lg:px-20">
 
@@ -36,15 +36,15 @@ export default function Projects() {
           viewport={{ once: true }}
           className="relative"
         >
-          <p className="text-xs font-semibold uppercase tracking-[.35em] text-[#9A7B53]">
+          <p className="text-xs font-semibold uppercase tracking-[.35em] text-[#22D3EE]">
             Projects
           </p>
 
-          <h2 className="mt-6 text-4xl font-semibold tracking-[-0.04em] text-[#1D1D1B] sm:text-5xl">
+          <h2 className="mt-6 text-4xl font-semibold tracking-[-0.04em] text-[#E6F1FF] sm:text-5xl">
             Selected AI Projects
           </h2>
 
-          <p className="mt-6 max-w-2xl text-lg leading-9 text-[#66645F]">
+          <p className="mt-6 max-w-2xl text-lg leading-9 text-[#94A3B8]">
             A collection of AI, Machine Learning and Generative AI
             applications developed using LangChain, RAG, LLMs and
             modern AI technologies.
@@ -57,14 +57,14 @@ export default function Projects() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mt-20 overflow-hidden rounded-[34px] border border-[#E6E1D9] bg-white"
+          className="mt-20 overflow-hidden rounded-[34px] border border-[#1E2A44] bg-[#0F1629]"
         >
           <div className="grid lg:grid-cols-2">
 
             <motion.div
               whileHover={{ scale: 1.02 }}
               transition={{ duration: .4 }}
-              className="relative min-h-[320px] overflow-hidden bg-[#F4F1EB] lg:min-h-[500px]"
+              className="relative min-h-[320px] overflow-hidden bg-[#0A0E1A] lg:min-h-[500px]"
             >
               {featuredProject.image ? (
                 <Image
@@ -78,7 +78,7 @@ export default function Projects() {
                 <div className="flex h-full min-h-[320px] items-center justify-center lg:min-h-[500px]">
                   <Sparkles
                     size={55}
-                    className="text-[#9A7B53]"
+                    className="text-[#22D3EE]"
                   />
                 </div>
               )}
@@ -86,7 +86,7 @@ export default function Projects() {
 
             <div className="flex flex-col justify-center p-8 sm:p-14">
 
-              <span className="w-fit rounded-full bg-[#F5F1EA] px-5 py-2 text-sm font-medium text-[#9A7B53]">
+              <span className="w-fit rounded-full bg-[#0A0E1A] px-5 py-2 text-sm font-medium text-[#22D3EE]">
                 Featured Project
               </span>
 
@@ -94,7 +94,7 @@ export default function Projects() {
                 {featuredProject.title}
               </h3>
 
-              <p className="mt-8 leading-9 text-[#66645F]">
+              <p className="mt-8 leading-9 text-[#94A3B8]">
                 {featuredProject.description}
               </p>
 
@@ -108,7 +108,7 @@ export default function Projects() {
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.05 }}
                     whileHover={{ y: -3, scale: 1.05 }}
-                    className="rounded-full border border-[#E6E1D9] bg-[#FAF8F5] px-4 py-2 text-sm"
+                    className="rounded-full border border-[#1E2A44] bg-[#0A0E1A] px-4 py-2 text-sm"
                   >
                     {item}
                   </motion.span>
@@ -122,7 +122,7 @@ export default function Projects() {
                   href={featuredProject.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex w-fit items-center gap-2 rounded-full bg-[#1D1D1B] px-7 py-3 text-white transition hover:-translate-y-1"
+                  className="flex w-fit items-center gap-2 rounded-full bg-[#22D3EE] px-7 py-3 text-[#0A0E1A] transition hover:-translate-y-1"
                 >
                   <FaGithub size={18} />
                   View GitHub
@@ -132,7 +132,7 @@ export default function Projects() {
                   href={featuredProject.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex w-fit items-center gap-2 rounded-full border border-[#E5DED5] bg-white px-7 py-3 transition hover:-translate-y-1 hover:border-[#9A7B53]"
+                  className="flex w-fit items-center gap-2 rounded-full border border-[#1E2A44] bg-[#0F1629] px-7 py-3 transition hover:-translate-y-1 hover:border-[#22D3EE]"
                 >
                   Learn More
                   <ArrowUpRight size={18} />
@@ -159,10 +159,10 @@ export default function Projects() {
               viewport={{ once: true, amount: .2 }}
               whileHover={{ y: -8, boxShadow: "0 20px 45px rgba(0,0,0,0.08)" }}
               transition={{ duration: .5, delay: (index % 2) * 0.12 }}
-              className="overflow-hidden rounded-[30px] border border-[#E6E1D9] bg-white transition"
+              className="overflow-hidden rounded-[30px] border border-[#1E2A44] bg-[#0F1629] transition"
             >
 
-              <div className="relative h-56 w-full overflow-hidden bg-[#F4F1EB]">
+              <div className="relative h-56 w-full overflow-hidden bg-[#0A0E1A]">
                 {project.image ? (
                   <Image
                     src={project.image}
@@ -178,7 +178,7 @@ export default function Projects() {
                 )}
 
                 <div className="absolute left-5 top-5">
-                  <span className="rounded-full bg-white/90 px-4 py-1.5 text-xs font-medium text-[#1D1D1B] backdrop-blur">
+                  <span className="rounded-full bg-[#0F1629]/90 px-4 py-1.5 text-xs font-medium text-[#E6F1FF] backdrop-blur">
                     {project.category}
                   </span>
                 </div>
@@ -190,7 +190,7 @@ export default function Projects() {
                   {project.title}
                 </h3>
 
-                <p className="mt-5 leading-8 text-[#66645F]">
+                <p className="mt-5 leading-8 text-[#94A3B8]">
                   {project.description}
                 </p>
 
@@ -200,7 +200,7 @@ export default function Projects() {
 
                     <span
                       key={tech}
-                      className="rounded-full border border-[#E6E1D9] bg-[#FAF8F5] px-4 py-2 text-sm"
+                      className="rounded-full border border-[#1E2A44] bg-[#0A0E1A] px-4 py-2 text-sm"
                     >
                       {tech}
                     </span>
@@ -215,7 +215,7 @@ export default function Projects() {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 rounded-full bg-[#1D1D1B] px-5 py-2.5 text-sm font-medium text-white transition hover:-translate-y-1"
+                    className="flex items-center gap-2 rounded-full bg-[#22D3EE] px-5 py-2.5 text-sm font-medium text-[#0A0E1A] transition hover:-translate-y-1"
                   >
                     <FaGithub size={16} />
                     View GitHub
@@ -225,7 +225,7 @@ export default function Projects() {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 rounded-full border border-[#E5DED5] px-5 py-2.5 text-sm font-medium transition hover:-translate-y-1 hover:border-[#9A7B53]"
+                    className="flex items-center gap-2 rounded-full border border-[#1E2A44] px-5 py-2.5 text-sm font-medium transition hover:-translate-y-1 hover:border-[#22D3EE]"
                   >
                     Learn More
                     <ArrowUpRight size={16} />

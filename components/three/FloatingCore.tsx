@@ -27,7 +27,7 @@ function Sculpture() {
         <mesh rotation={[0.4, 0.2, 0]}>
           <torusGeometry args={[1.45, 0.05, 32, 220]} />
           <meshPhysicalMaterial
-            color="#D5CCBF"
+            color="#1E2A44"
             metalness={0.15}
             roughness={0.18}
             clearcoat={1}
@@ -37,7 +37,7 @@ function Sculpture() {
         <mesh rotation={[1.2, 0.6, 0]}>
           <torusGeometry args={[1.1, 0.05, 32, 220]} />
           <meshPhysicalMaterial
-            color="#CFC5B8"
+            color="#1E2A44"
             metalness={0.15}
             roughness={0.18}
             clearcoat={1}
@@ -47,7 +47,7 @@ function Sculpture() {
         <mesh rotation={[0.2, 1.4, 0]}>
           <torusGeometry args={[0.75, 0.05, 32, 220]} />
           <meshPhysicalMaterial
-            color="#E5DED4"
+            color="#1E2A44"
             metalness={0.15}
             roughness={0.18}
             clearcoat={1}

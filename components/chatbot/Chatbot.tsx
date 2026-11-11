@@ -121,7 +121,7 @@ Feel free to ask anything!`,
       {!open && (
         <button
           onClick={() => setOpen(true)}
-          className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#9A7B53] text-white shadow-2xl transition hover:scale-110 sm:bottom-8 sm:right-8 sm:h-16 sm:w-16"
+          className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#22D3EE] text-[#0A0E1A] shadow-2xl transition hover:scale-110 sm:bottom-8 sm:right-8 sm:h-16 sm:w-16"
         >
           <MessageCircle size={28} />
         </button>
@@ -130,15 +130,15 @@ Feel free to ask anything!`,
       {/* Chat Window */}
 
       {open && (
-        <div className="fixed bottom-0 right-0 z-50 flex h-[100dvh] w-full flex-col overflow-hidden border border-neutral-200 bg-white shadow-2xl sm:bottom-6 sm:right-6 sm:h-[min(700px,85dvh)] sm:w-[420px] sm:rounded-[30px]">
+        <div className="fixed bottom-0 right-0 z-50 flex h-[100dvh] w-full flex-col overflow-hidden border border-neutral-200 bg-[#0F1629] shadow-2xl sm:bottom-6 sm:right-6 sm:h-[min(700px,85dvh)] sm:w-[420px] sm:rounded-[30px]">
 
                     {/* Header */}
 
-          <div className="flex items-center justify-between border-b border-neutral-200 bg-[#F7F5F2] px-6 py-5">
+          <div className="flex items-center justify-between border-b border-neutral-200 bg-[#0A0E1A] px-6 py-5">
 
             <div className="flex items-center gap-4">
 
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#9A7B53] text-white">
+              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#22D3EE] text-[#0A0E1A]">
 
                 <Bot size={22} />
 
@@ -170,12 +170,12 @@ Feel free to ask anything!`,
 
           {/* Resume Button */}
 
-          <div className="border-b border-neutral-200 bg-white px-6 py-4">
+          <div className="border-b border-neutral-200 bg-[#0F1629] px-6 py-4">
 
             <a
               href="/resume/resume.pdf"
               download
-              className="flex w-full items-center justify-center gap-2 rounded-xl bg-[#9A7B53] px-5 py-3 font-medium text-white transition hover:opacity-90"
+              className="flex w-full items-center justify-center gap-2 rounded-xl bg-[#22D3EE] px-5 py-3 font-medium text-[#0A0E1A] transition hover:opacity-90"
             >
               <Download size={18} />
               Download Resume
@@ -185,7 +185,7 @@ Feel free to ask anything!`,
 
           {/* Quick Prompts */}
 
-          <div className="border-b border-neutral-200 bg-[#FAFAF8] px-4 py-4">
+          <div className="border-b border-neutral-200 bg-[#0A0E1A] px-4 py-4">
 
             <div className="flex gap-2 overflow-x-auto">
 
@@ -194,7 +194,7 @@ Feel free to ask anything!`,
                 <button
                   key={prompt}
                   onClick={() => sendMessage(prompt)}
-                  className="whitespace-nowrap rounded-full border border-neutral-300 bg-white px-4 py-2 text-sm transition hover:border-[#9A7B53] hover:bg-[#9A7B53] hover:text-white"
+                  className="whitespace-nowrap rounded-full border border-[#1E2A44] bg-[#0F1629] px-4 py-2 text-sm transition hover:border-[#22D3EE] hover:bg-[#22D3EE] hover:text-[#0A0E1A]"
                 >
                   {prompt}
                 </button>
@@ -209,7 +209,7 @@ Feel free to ask anything!`,
 
           <div
             data-lenis-prevent
-            className="min-h-0 flex-1 overflow-y-auto overscroll-contain bg-[#FCFCFB] p-5"
+            className="min-h-0 flex-1 overflow-y-auto overscroll-contain bg-[#0A0E1A] p-5"
           >
             <div className="space-y-5">
 
@@ -228,14 +228,14 @@ Feel free to ask anything!`,
                 <div
                   className={`max-w-[90%] rounded-3xl px-5 py-4 text-[15px] leading-7 shadow-sm ${
                     message.role === "assistant"
-                      ? "bg-white text-neutral-800"
-                      : "bg-[#9A7B53] text-white"
+                      ? "bg-[#0F1629] text-neutral-800"
+                      : "bg-[#22D3EE] text-[#0A0E1A]"
                   }`}
                 >
 
                   {message.role === "assistant" && (
 
-                    <div className="mb-3 flex items-center gap-2 text-[#9A7B53]">
+                    <div className="mb-3 flex items-center gap-2 text-[#22D3EE]">
 
                       <Sparkles size={16} />
 
@@ -265,19 +265,19 @@ Feel free to ask anything!`,
 
               <div className="flex justify-start">
 
-                <div className="rounded-3xl bg-white px-5 py-4 shadow-sm">
+                <div className="rounded-3xl bg-[#0F1629] px-5 py-4 shadow-sm">
 
                   <div className="flex gap-2">
 
-                    <span className="h-2 w-2 animate-bounce rounded-full bg-[#9A7B53]" />
+                    <span className="h-2 w-2 animate-bounce rounded-full bg-[#22D3EE]" />
 
                     <span
-                      className="h-2 w-2 animate-bounce rounded-full bg-[#9A7B53]"
+                      className="h-2 w-2 animate-bounce rounded-full bg-[#22D3EE]"
                       style={{ animationDelay: "0.15s" }}
                     />
 
                     <span
-                      className="h-2 w-2 animate-bounce rounded-full bg-[#9A7B53]"
+                      className="h-2 w-2 animate-bounce rounded-full bg-[#22D3EE]"
                       style={{ animationDelay: "0.3s" }}
                     />
 
@@ -296,9 +296,9 @@ Feel free to ask anything!`,
 
               {/* Input */}
 
-          <div className="border-t border-neutral-200 bg-white p-5">
+          <div className="border-t border-neutral-200 bg-[#0F1629] p-5">
 
-            <div className="flex items-center gap-3 rounded-2xl border border-neutral-300 px-4 py-3 focus-within:border-[#9A7B53]">
+            <div className="flex items-center gap-3 rounded-2xl border border-[#1E2A44] px-4 py-3 focus-within:border-[#22D3EE]">
 
               <input
                 value={input}
@@ -315,7 +315,7 @@ Feel free to ask anything!`,
               <button
                 onClick={() => sendMessage()}
                 disabled={loading}
-                className="flex h-11 w-11 items-center justify-center rounded-full bg-[#9A7B53] text-white transition hover:scale-105 disabled:cursor-not-allowed disabled:opacity-50"
+                className="flex h-11 w-11 items-center justify-center rounded-full bg-[#22D3EE] text-[#0A0E1A] transition hover:scale-105 disabled:cursor-not-allowed disabled:opacity-50"
               >
                 <Send size={18} />
               </button>

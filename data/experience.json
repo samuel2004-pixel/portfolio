@@ -1,17 +1,38 @@
 [
   {
+    "company": "Modofx",
+    "position": "AI Engineer Intern",
+    "location": "Chennai, India",
+    "duration": "Oct 2026 – Present",
+    "highlights": [
+      "Working on AI agent automation for Hyundai: AI agents that automate business email workflows.",
+      "Built CRM automations (lead replies, contacts, follow-ups) and Tally automations for clients.",
+      "Building with LLMs, RAG and Redis; testing with LLMs run locally; worked on the web UI of the product.",
+      "Handled server deployment and CI/CD with Coolify.",
+      "Consulted with clients on their projects; prepared presentations and reports for them."
+    ]
+  },
+  {
+    "company": "Self-employed (Remote)",
+    "position": "Freelance Full-stack & AI Developer",
+    "location": "Remote",
+    "duration": "May 2026 – Sep 2026",
+    "highlights": [
+      "YWAM Trichy: contribution and loan management system with a client portal, SMS reminders, OCR payment-proof detection, Excel import/export and WhatsApp automation.",
+      "YWAM Trichy Tailoring Centre: management system with role-based access and a mobile-responsive UI.",
+      "ALBO Fitness: full web and DNS setup, authentication email and search presence; a fitness calculator."
+    ]
+  },
+  {
     "company": "Judah Code Technologies",
     "position": "Data Science & Analysis Intern",
     "location": "Trichy, India",
-    "duration": "Aug 2025 - Oct 2025",
+    "duration": "Aug 2025 – Oct 2025",
     "highlights": [
-      "Built Machine Learning, Deep Learning and LLM applications.",
-      "Developed RAG pipelines and LangChain workflows.",
-      "Worked with TensorFlow, PyTorch and Scikit-learn.",
-      "Performed SQL querying and exploratory data analysis.",
-      "Created dashboards using Power BI, Matplotlib and Plotly.",
-      "Used GitHub, Docker, VS Code, Jupyter, Google Colab and Postman.",
-      "Strengthened Python and SQL development skills."
+      "Built Machine Learning, Deep Learning and LLM-based applications using PyTorch, TensorFlow and Scikit-learn.",
+      "Developed Retrieval-Augmented Generation (RAG) pipelines and LangChain workflows for AI applications.",
+      "Performed data cleaning, preprocessing, SQL querying and exploratory data analysis using Pandas and NumPy.",
+      "Created dashboards and business reports using Power BI, Plotly and Matplotlib."
     ]
   }
 ]

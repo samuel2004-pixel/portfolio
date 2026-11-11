@@ -11,6 +11,9 @@ const transporter =
     },
   });
 
+const escape = (text: string) =>
+  String(text).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c] as string);
+
 export async function sendEmail(
   name: string,
   email: string,
@@ -23,17 +26,18 @@ export async function sendEmail(
     to:
       process.env.CONTACT_RECEIVER,
     subject:
-      `Portfolio Contact: ${subject}`,
+      `Portfolio Contact: ${String(subject).replace(/[\r\n]+/g, " ").slice(0, 150)}`,
+    replyTo: email,
     html: `
       <h2>New Portfolio Message</h2>
 
-      <p><b>Name:</b> ${name}</p>
+      <p><b>Name:</b> ${escape(name)}</p>
 
-      <p><b>Email:</b> ${email}</p>
+      <p><b>Email:</b> ${escape(email)}</p>
 
       <p><b>Message:</b></p>
 
-      <p>${message}</p>
+      <p style="white-space:pre-wrap">${escape(message)}</p>
     `,
   });
 }

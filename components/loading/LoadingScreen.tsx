@@ -62,7 +62,7 @@ export default function LoadingScreen() {
           transition={{
             duration: 0.8,
           }}
-          className="fixed inset-0 z-[999999] overflow-hidden bg-[#1D1D1B]"
+          className="fixed inset-0 z-[999999] overflow-hidden bg-[#0A0E1A]"
         >
           {/* Aurora — warm gold glows, same palette as the Hero card & Footer */}
 
@@ -75,7 +75,7 @@ export default function LoadingScreen() {
               repeat: Infinity,
               duration: 8,
             }}
-            className="absolute left-[-250px] top-[-250px] h-[700px] w-[700px] rounded-full bg-[#9A7B53]/20 blur-[170px]"
+            className="absolute left-[-250px] top-[-250px] h-[700px] w-[700px] rounded-full bg-[#22D3EE]/20 blur-[170px]"
           />
 
           <motion.div
@@ -87,7 +87,7 @@ export default function LoadingScreen() {
               repeat: Infinity,
               duration: 9,
             }}
-            className="absolute bottom-[-250px] right-[-250px] h-[700px] w-[700px] rounded-full bg-[#C5AE89]/20 blur-[170px]"
+            className="absolute bottom-[-250px] right-[-250px] h-[700px] w-[700px] rounded-full bg-[#4ADE80]/20 blur-[170px]"
           />
 
           {/* Grid */}
@@ -112,7 +112,7 @@ export default function LoadingScreen() {
               duration: 3.2,
               ease: "linear",
             }}
-            className="pointer-events-none absolute left-0 h-px w-full bg-gradient-to-r from-transparent via-[#C5AE89]/60 to-transparent"
+            className="pointer-events-none absolute left-0 h-px w-full bg-gradient-to-r from-transparent via-[#4ADE80]/60 to-transparent"
           />
 
           {/* Floating particles */}
@@ -139,7 +139,7 @@ export default function LoadingScreen() {
                   width: size,
                   height: size,
                 }}
-                className="absolute rounded-full bg-[#C5AE89]/70"
+                className="absolute rounded-full bg-[#4ADE80]/70"
               />
             );
           })}
@@ -157,7 +157,7 @@ export default function LoadingScreen() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 0.5 }}
               transition={{ delay: 0.3 + i * 0.1, duration: 0.6 }}
-              className={`absolute hidden h-10 w-10 border-[#C5AE89]/40 sm:block ${pos}`}
+              className={`absolute hidden h-10 w-10 border-[#4ADE80]/40 sm:block ${pos}`}
             />
           ))}
 
@@ -167,7 +167,7 @@ export default function LoadingScreen() {
             initial={{ opacity: 0, x: -10 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.4 }}
-            className="absolute left-8 top-8 hidden items-center gap-2 font-mono text-[11px] uppercase tracking-[.2em] text-[#C5AE89]/70 sm:flex"
+            className="absolute left-8 top-8 hidden items-center gap-2 font-mono text-[11px] uppercase tracking-[.2em] text-[#4ADE80]/70 sm:flex"
           >
             <BrainCircuit size={14} />
             neural.init
@@ -179,7 +179,7 @@ export default function LoadingScreen() {
             initial={{ opacity: 0, x: 10 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.4 }}
-            className="absolute right-8 top-8 hidden font-mono text-[11px] uppercase tracking-[.2em] text-[#C5AE89]/70 sm:block"
+            className="absolute right-8 top-8 hidden font-mono text-[11px] uppercase tracking-[.2em] text-[#4ADE80]/70 sm:block"
           >
             sys.boot // {Math.round(progress)}%
           </motion.div>
@@ -205,7 +205,7 @@ export default function LoadingScreen() {
                   duration: 3,
                   ease: "easeInOut",
                 }}
-                className="absolute left-1/2 top-1/2 h-[280px] w-[280px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#9A7B53]/20 blur-[80px] sm:h-[360px] sm:w-[360px]"
+                className="absolute left-1/2 top-1/2 h-[280px] w-[280px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#22D3EE]/20 blur-[80px] sm:h-[360px] sm:w-[360px]"
               />
 
               {/* Rotating dashed ring */}
@@ -217,14 +217,14 @@ export default function LoadingScreen() {
                   ease: "linear",
                   duration: 22,
                 }}
-                className="absolute left-1/2 top-1/2 h-[260px] w-[260px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-dashed border-[#C5AE89]/25 sm:h-[340px] sm:w-[340px]"
+                className="absolute left-1/2 top-1/2 h-[260px] w-[260px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-dashed border-[#4ADE80]/25 sm:h-[340px] sm:w-[340px]"
               />
 
               <NeuralNetworkLoader />
 
               {/* Layer labels beneath the network */}
 
-              <div className="mx-auto -mt-6 flex w-full max-w-[560px] items-center justify-between px-4 font-mono text-[9px] uppercase tracking-[.25em] text-[#9A7B53]/70 sm:text-[10px]">
+              <div className="mx-auto -mt-6 flex w-full max-w-[560px] items-center justify-between px-4 font-mono text-[9px] uppercase tracking-[.25em] text-[#22D3EE]/70 sm:text-[10px]">
                 <span>Input</span>
                 <span>Hidden</span>
                 <span>Hidden</span>
@@ -238,11 +238,11 @@ export default function LoadingScreen() {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.6 }}
-              className="mt-4 flex items-center gap-2 text-[#C5AE89]"
+              className="mt-4 flex items-center gap-2 text-[#4ADE80]"
             >
               <Sparkles size={16} />
               <p className="text-xs uppercase tracking-[.35em]">
-                samuel personal Resume
+                Samuel Roshan
               </p>
             </motion.div>
 
@@ -274,7 +274,7 @@ export default function LoadingScreen() {
                   transition={{
                     ease: "easeOut",
                   }}
-                  className="h-full rounded-full bg-gradient-to-r from-[#9A7B53] via-[#C5AE89] to-[#EFE7DB]"
+                  className="h-full rounded-full bg-gradient-to-r from-[#22D3EE] via-[#4ADE80] to-[#132036]"
                 />
               </div>
 
@@ -303,7 +303,7 @@ export default function LoadingScreen() {
                     duration: 1.2,
                     delay: i * 0.2,
                   }}
-                  className="h-1.5 w-1.5 rounded-full bg-[#C5AE89]"
+                  className="h-1.5 w-1.5 rounded-full bg-[#4ADE80]"
                 />
               ))}
             </div>

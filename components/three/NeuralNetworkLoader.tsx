@@ -16,10 +16,10 @@ import * as THREE from "three";
 const LAYER_SIZES = [4, 6, 6, 5, 3];
 const LAYER_SPACING = 2.1;
 
-const GOLD = "#C5AE89";
-const GOLD_DEEP = "#9A7B53";
-const CREAM = "#EFE7DB";
-const SIGNAL = "#F3E9D6";
+const GOLD = "#4ADE80";
+const GOLD_DEEP = "#22D3EE";
+const CREAM = "#132036";
+const SIGNAL = "#132036";
 
 type NodePos = {
   position: THREE.Vector3;

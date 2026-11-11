@@ -12,6 +12,13 @@ export async function POST(
       message,
     } = await req.json();
 
+    if (!name || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(String(email)) || !message || String(message).length > 5000) {
+      return NextResponse.json(
+        { success: false, message: "Please enter your name, a valid email and a message." },
+        { status: 400 }
+      );
+    }
+
     await sendEmail(
       name,
       email,

@@ -12,7 +12,7 @@ const SectionAccent = dynamic(() => import("../three/SectionAccent"), {
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden bg-[#1D1D1B] text-white">
+    <footer className="relative overflow-hidden border-t border-[#1E2A44] bg-[#060912] text-white">
 
       {/* 3D accent — closes the loop with the loading screen's gold sculpture */}
 
@@ -33,7 +33,7 @@ export default function Footer() {
             transition={{ duration: 0.7 }}
           >
 
-            <p className="text-xs font-semibold uppercase tracking-[.35em] text-[#C5AE89]">
+            <p className="text-xs font-semibold uppercase tracking-[.35em] text-[#4ADE80]">
               Samuel Roshan
             </p>
 
@@ -64,7 +64,7 @@ export default function Footer() {
 
             <div>
 
-              <p className="text-xs font-semibold uppercase tracking-[.35em] text-[#C5AE89]">
+              <p className="text-xs font-semibold uppercase tracking-[.35em] text-[#4ADE80]">
                 Connect
               </p>
 
@@ -105,7 +105,7 @@ export default function Footer() {
                         href={item.href}
                         target={item.external ? "_blank" : undefined}
                         rel={item.external ? "noopener noreferrer" : undefined}
-                        className="flex items-center gap-4 text-lg transition hover:text-[#C5AE89]"
+                        className="flex items-center gap-4 text-lg transition hover:text-[#4ADE80]"
                       >
                         <Icon size={22} />
                         {item.label}

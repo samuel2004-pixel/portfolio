@@ -17,7 +17,7 @@ export default function Education() {
   return (
     <section
       id="education"
-      className="bg-white py-28 sm:py-40"
+      className="bg-[#0F1629] py-28 sm:py-40"
     >
       <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-20">
 
@@ -61,7 +61,7 @@ export default function Education() {
             >
               <GraduationCap
                 size={28}
-                className="text-[#9A7B53]"
+                className="text-[#22D3EE]"
               />
 
               <p className="mt-6 text-neutral-400">
@@ -76,6 +76,7 @@ export default function Education() {
               <p className="mt-5 text-neutral-500">
                 {item.college}
                 {item.university ? `, ${item.university}` : ""}
+                {"grade" in item && item.grade ? ` · ${item.grade}` : ""}
               </p>
             </motion.div>
           ))}
@@ -109,7 +110,7 @@ export default function Education() {
               >
                 <Award
                   size={26}
-                  className="text-[#9A7B53]"
+                  className="text-[#22D3EE]"
                 />
 
                 <h3 className="mt-6 text-xl font-semibold leading-snug">

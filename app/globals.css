@@ -1,15 +1,15 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #f7f5f2;
-  --surface: #ffffff;
-  --border: #e6e1d9;
+  --bg: #0a0e1a;
+  --surface: #0f1629;
+  --border: #1e2a44;
 
-  --text: #1d1d1b;
-  --muted: #66645f;
+  --text: #e6f1ff;
+  --muted: #94a3b8;
 
-  --accent: #9a7b53;
-  --success: #687c66;
+  --accent: #22D3EE;
+  --success: #4ADE80;
 
   --radius: 24px;
 }
@@ -75,8 +75,8 @@ section {
 }
 
 .btn-primary {
-  background: #1d1d1b;
-  color: white;
+  background: #22D3EE;
+  color: #0a0e1a;
   padding: 14px 28px;
   border-radius: 999px;
   transition: .3s;
@@ -103,6 +103,6 @@ section {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #c8c3bb;
+  background: #1e2a44;
   border-radius: 999px;
 }

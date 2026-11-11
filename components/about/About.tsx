@@ -39,7 +39,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-[#F7F5F2] py-36"
+      className="bg-[#0A0E1A] py-36"
     >
       <div className="mx-auto max-w-7xl px-8 lg:px-20">
 
@@ -60,11 +60,11 @@ export default function About() {
               <SectionAccent variant="light" />
             </div>
 
-            <p className="relative text-xs font-semibold uppercase tracking-[.35em] text-[#9A7B53]">
+            <p className="relative text-xs font-semibold uppercase tracking-[.35em] text-[#22D3EE]">
               ABOUT ME
             </p>
 
-            <h2 className="mt-6 text-[38px] font-semibold leading-[1.05] tracking-[-0.04em] text-[#1D1D1B] sm:text-[46px] lg:text-[54px]">
+            <h2 className="mt-6 text-[38px] font-semibold leading-[1.05] tracking-[-0.04em] text-[#E6F1FF] sm:text-[46px] lg:text-[54px]">
               Turning AI
               <br />
               ideas into
@@ -72,7 +72,7 @@ export default function About() {
               real products.
             </h2>
 
-            <p className="mt-8 text-lg leading-9 text-[#66645F]">
+            <p className="mt-8 text-lg leading-9 text-[#94A3B8]">
               Passionate about designing practical AI solutions that
               combine Machine Learning, Deep Learning, Large Language
               Models and Data Science to solve real-world business
@@ -92,16 +92,16 @@ export default function About() {
 
             {/* INTRO */}
 
-            <div className="rounded-[34px] border border-[#E6E1D9] bg-white p-10">
+            <div className="rounded-[34px] border border-[#1E2A44] bg-[#0F1629] p-10">
 
-              <p className="text-lg leading-9 text-[#66645F]">
-                I'm <strong className="text-[#1D1D1B]">Samuel Roshan</strong>,
+              <p className="text-lg leading-9 text-[#94A3B8]">
+                I'm <strong className="text-[#E6F1FF]">Samuel Roshan</strong>,
                 an AI & Data Science graduate passionate about building
                 intelligent software using Generative AI, Agentic AI,
                 Machine Learning and modern data technologies.
               </p>
 
-              <p className="mt-6 text-lg leading-9 text-[#66645F]">
+              <p className="mt-6 text-lg leading-9 text-[#94A3B8]">
                 My experience includes developing RAG pipelines,
                 LangChain applications, AI chatbots, machine learning
                 models and data analytics solutions while working with
@@ -122,29 +122,29 @@ export default function About() {
                   <motion.div
                     whileHover={{ y: -4 }}
                     key={item.title}
-                    className="rounded-[28px] border border-[#E6E1D9] bg-white p-8 transition"
+                    className="rounded-[28px] border border-[#1E2A44] bg-[#0F1629] p-8 transition"
                   >
                     <div className="flex items-start gap-5">
 
                       <motion.div
                         whileHover={{ rotate: 8, scale: 1.08 }}
-                        className="rounded-2xl bg-[#F5F1EA] p-4"
+                        className="rounded-2xl bg-[#0A0E1A] p-4"
                       >
 
                         <Icon
                           size={26}
-                          className="text-[#9A7B53]"
+                          className="text-[#22D3EE]"
                         />
 
                       </motion.div>
 
                       <div>
 
-                        <h3 className="text-2xl font-semibold text-[#1D1D1B]">
+                        <h3 className="text-2xl font-semibold text-[#E6F1FF]">
                           {item.title}
                         </h3>
 
-                        <p className="mt-3 leading-8 text-[#66645F]">
+                        <p className="mt-3 leading-8 text-[#94A3B8]">
                           {item.description}
                         </p>
 
@@ -168,15 +168,15 @@ export default function About() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
                 whileHover={{ y: -4 }}
-                className="rounded-[28px] border border-[#E6E1D9] bg-white p-8"
+                className="rounded-[28px] border border-[#1E2A44] bg-[#0F1629] p-8"
               >
 
                 <GraduationCap
-                  className="text-[#9A7B53]"
+                  className="text-[#22D3EE]"
                   size={28}
                 />
 
-                <p className="mt-6 text-xs uppercase tracking-[.3em] text-[#9A7B53]">
+                <p className="mt-6 text-xs uppercase tracking-[.3em] text-[#22D3EE]">
                   Education
                 </p>
 
@@ -184,15 +184,15 @@ export default function About() {
                   B.Tech AI & Data Science
                 </h3>
 
-                <p className="mt-3 text-[#66645F]">
+                <p className="mt-3 text-[#94A3B8]">
                   Jeppiaar Engineering College
                 </p>
 
-                <p className="mt-2 text-[#66645F]">
+                <p className="mt-2 text-[#94A3B8]">
                   Anna University
                 </p>
 
-                <p className="mt-2 text-[#66645F]">
+                <p className="mt-2 text-[#94A3B8]">
                   2022 – 2026
                 </p>
 
@@ -204,15 +204,15 @@ export default function About() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.1 }}
                 whileHover={{ y: -4 }}
-                className="rounded-[28px] border border-[#E6E1D9] bg-white p-8"
+                className="rounded-[28px] border border-[#1E2A44] bg-[#0F1629] p-8"
               >
 
                 <BriefcaseBusiness
-                  className="text-[#9A7B53]"
+                  className="text-[#22D3EE]"
                   size={28}
                 />
 
-                <p className="mt-6 text-xs uppercase tracking-[.3em] text-[#9A7B53]">
+                <p className="mt-6 text-xs uppercase tracking-[.3em] text-[#22D3EE]">
                   Experience
                 </p>
 
@@ -220,11 +220,11 @@ export default function About() {
                   Data Science & Analysis Intern
                 </h3>
 
-                <p className="mt-3 text-[#66645F]">
+                <p className="mt-3 text-[#94A3B8]">
                   Judah Code Technologies
                 </p>
 
-                <p className="mt-2 text-[#66645F]">
+                <p className="mt-2 text-[#94A3B8]">
                   Aug 2025 – Oct 2025
                 </p>
 

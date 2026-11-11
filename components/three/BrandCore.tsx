@@ -17,10 +17,10 @@ import * as THREE from "three";
  * a drifting particle field, and a slow camera drift for parallax.
  */
 
-const GOLD = "#C5AE89";
-const GOLD_DEEP = "#9A7B53";
-const CREAM = "#EFE7DB";
-const CREAM_DEEP = "#D5CCBF";
+const GOLD = "#4ADE80";
+const GOLD_DEEP = "#22D3EE";
+const CREAM = "#132036";
+const CREAM_DEEP = "#1E2A44";
 
 type BrandCoreProps = {
   /** 0-100 loading progress; nudges the core's energy as it climbs */

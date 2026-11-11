@@ -42,15 +42,15 @@ export default function HeroStats() {
           whileHover={{
             y: -6,
           }}
-          className="group rounded-3xl border border-[#DDD8D2] bg-[#FCFBF8] p-5 transition-all duration-300 hover:border-[#C8B79E] hover:shadow-[0_15px_40px_rgba(0,0,0,0.05)]"
+          className="group rounded-3xl border border-[#1E2A44] bg-[#0A0E1A] p-5 transition-all duration-300 hover:border-[#7DD3FC] hover:shadow-[0_15px_40px_rgba(0,0,0,0.05)]"
         >
-          <h3 className="text-3xl font-bold tracking-tight text-[#181818]">
+          <h3 className="text-3xl font-bold tracking-tight text-[#E6F1FF]">
             {item.value}
           </h3>
 
-          <div className="mt-3 h-px w-10 bg-[#D8D2C8] transition-all duration-300 group-hover:w-16" />
+          <div className="mt-3 h-px w-10 bg-[#1E2A44] transition-all duration-300 group-hover:w-16" />
 
-          <p className="2 text-sm uppercase tracking-[0.25em] text-[#777777]">
+          <p className="2 text-sm uppercase tracking-[0.25em] text-[#94A3B8]">
             {item.label}
           </p>
         </motion.div>

@@ -76,7 +76,7 @@ export default function HeroBackground() {
           repeat: Infinity,
           ease: "easeInOut",
         }}
-        className="absolute -left-52 top-0 h-[700px] w-[700px] rounded-full bg-[#EFE7DB] blur-[170px]"
+        className="absolute -left-52 top-0 h-[700px] w-[700px] rounded-full bg-[#132036] blur-[170px]"
       />
 
       {/* Right Glow */}
@@ -91,7 +91,7 @@ export default function HeroBackground() {
           repeat: Infinity,
           ease: "easeInOut",
         }}
-        className="absolute -right-48 bottom-0 h-[680px] w-[680px] rounded-full bg-[#F3EEE7] blur-[170px]"
+        className="absolute -right-48 bottom-0 h-[680px] w-[680px] rounded-full bg-[#0A0E1A] blur-[170px]"
       />
 
       {/* Floating AI Cards */}
@@ -110,7 +110,7 @@ export default function HeroBackground() {
             duration: 8,
             delay,
           }}
-          className="absolute rounded-2xl border border-[#E7DFD4] bg-white/90 p-5 shadow-[0_10px_30px_rgba(0,0,0,.05)]"
+          className="absolute rounded-2xl border border-[#1E2A44] bg-[#0F1629]/90 p-5 shadow-[0_10px_30px_rgba(0,0,0,.05)]"
           style={{
             top,
             left,
@@ -118,7 +118,7 @@ export default function HeroBackground() {
         >
           <Icon
             size={size}
-            className="text-[#9A7B53]"
+            className="text-[#22D3EE]"
           />
         </motion.div>
       ))}
@@ -131,7 +131,7 @@ export default function HeroBackground() {
       >
         <motion.path
           d="M920 180 C1050 220 1080 340 1180 360"
-          stroke="#B39A75"
+          stroke="#7DD3FC"
           strokeWidth="2"
           fill="transparent"
           strokeLinecap="round"
@@ -146,7 +146,7 @@ export default function HeroBackground() {
 
         <motion.path
           d="M1080 360 C1120 480 1040 620 1180 650"
-          stroke="#B39A75"
+          stroke="#7DD3FC"
           strokeWidth="2"
           fill="transparent"
           strokeLinecap="round"
@@ -173,7 +173,7 @@ export default function HeroBackground() {
 
       {/* Fade */}
 
-      <div className="absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-[#F7F5F2] to-transparent" />
+      <div className="absolute inset-x-0 bottom-0 h-44 bg-gradient-to-t from-[#0A0E1A] to-transparent" />
     </div>
   );
 }

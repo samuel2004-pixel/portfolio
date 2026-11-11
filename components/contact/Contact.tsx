@@ -17,7 +17,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="bg-[#F7F5F2] py-36"
+      className="bg-[#0A0E1A] py-36"
     >
       <div className="mx-auto max-w-7xl px-8 lg:px-20">
 
@@ -25,7 +25,7 @@ export default function Contact() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          className="relative overflow-hidden rounded-[40px] border border-[#E6E1D9] bg-[#1D1D1B] p-10 text-white md:p-16"
+          className="relative overflow-hidden rounded-[40px] border border-[#1E2A44] bg-[#0F1629] p-10 text-white shadow-[0_0_60px_rgba(34,211,238,.06)] md:p-16"
         >
 
           {/* 3D accent — gold sculpture drifting in the dark card, mirrors the loading screen */}
@@ -34,7 +34,7 @@ export default function Contact() {
             <SectionAccent variant="dark" />
           </div>
 
-          <p className="relative text-xs font-semibold uppercase tracking-[.35em] text-[#C5AE89]">
+          <p className="relative text-xs font-semibold uppercase tracking-[.35em] text-[#4ADE80]">
             CONTACT
           </p>
 
@@ -57,7 +57,7 @@ export default function Contact() {
               whileHover={{ y: -4, scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               href="mailto:samuelroshanin@gmail.com"
-              className="flex items-center gap-3 rounded-full bg-white px-8 py-4 font-medium text-[#1D1D1B] transition"
+              className="flex items-center gap-3 rounded-full bg-[#0F1629] px-8 py-4 font-medium text-[#E6F1FF] transition"
             >
               <Mail size={18} />
               Email Me
@@ -101,7 +101,7 @@ export default function Contact() {
             >
 
               <MapPin
-                className="text-[#C5AE89]"
+                className="text-[#4ADE80]"
                 size={24}
               />
 
@@ -125,7 +125,7 @@ export default function Contact() {
             >
 
               <Mail
-                className="text-[#C5AE89]"
+                className="text-[#4ADE80]"
                 size={24}
               />
 
@@ -149,7 +149,7 @@ export default function Contact() {
             >
 
               <Phone
-                className="text-[#C5AE89]"
+                className="text-[#4ADE80]"
                 size={24}
               />
 
@@ -178,7 +178,7 @@ export default function Contact() {
                 className="inline-block"
               >
                 <ArrowUpRight
-                  className="text-[#C5AE89]"
+                  className="text-[#4ADE80]"
                   size={24}
                 />
               </motion.div>

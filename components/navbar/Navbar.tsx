@@ -36,13 +36,13 @@ export default function Navbar() {
         <div
           className={`flex h-[70px] items-center justify-between rounded-full border transition-all duration-300 ${
             scroll
-              ? "border-[#E6E1D9] bg-[#FAF8F5]/90 shadow-sm backdrop-blur-xl"
-              : "border-[#E6E1D9] bg-[#FAF8F5]/75 backdrop-blur-xl"
+              ? "border-[#1E2A44] bg-[#0A0E1A]/90 shadow-sm backdrop-blur-xl"
+              : "border-[#1E2A44] bg-[#0A0E1A]/75 backdrop-blur-xl"
           } w-[92vw] max-w-[1080px] px-8`}
         >
           <Link
             href="/"
-            className="text-[20px] font-semibold tracking-[-0.02em] text-[#1D1D1B]"
+            className="text-[20px] font-semibold tracking-[-0.02em] text-[#E6F1FF]"
           >
             Samuel Roshan
           </Link>
@@ -52,17 +52,17 @@ export default function Navbar() {
               <a
                 key={item.name}
                 href={item.href}
-                className="group relative text-[15px] font-medium text-[#66645F] transition hover:text-[#1D1D1B]"
+                className="group relative text-[15px] font-medium text-[#94A3B8] transition hover:text-[#E6F1FF]"
               >
                 {item.name}
-                <span className="absolute -bottom-1 left-0 h-[1.5px] w-0 bg-[#9A7B53] transition-all duration-300 group-hover:w-full" />
+                <span className="absolute -bottom-1 left-0 h-[1.5px] w-0 bg-[#22D3EE] transition-all duration-300 group-hover:w-full" />
               </a>
             ))}
           </nav>
 
           <a
             href="#contact"
-            className="hidden rounded-full border border-[#DDD6CC] px-6 py-3 text-sm font-medium transition hover:border-[#9A7B53] hover:bg-white lg:block"
+            className="hidden rounded-full border border-[#1E2A44] px-6 py-3 text-sm font-medium transition hover:border-[#22D3EE] hover:bg-[#0F1629] lg:block"
           >
             Hire Me
           </a>
@@ -86,7 +86,7 @@ export default function Navbar() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 bg-[#F7F5F2]"
+            className="fixed inset-0 z-50 bg-[#0A0E1A]"
           >
             <div className="flex h-full flex-col items-center justify-center gap-10">
 
@@ -95,7 +95,7 @@ export default function Navbar() {
                   key={item.name}
                   href={item.href}
                   onClick={() => setOpen(false)}
-                  className="text-3xl font-semibold text-[#1D1D1B]"
+                  className="text-3xl font-semibold text-[#E6F1FF]"
                 >
                   {item.name}
                 </a>

@@ -71,8 +71,8 @@ export default function SectionAccent({
   variant = "light",
   className = "",
 }: SectionAccentProps) {
-  const resolvedColor = color ?? (variant === "dark" ? "#C5AE89" : "#B39A75");
-  const resolvedRing = ringColor ?? (variant === "dark" ? "#EFE7DB" : "#9A7B53");
+  const resolvedColor = color ?? (variant === "dark" ? "#4ADE80" : "#7DD3FC");
+  const resolvedRing = ringColor ?? (variant === "dark" ? "#132036" : "#22D3EE");
 
   return (
     <div className={`pointer-events-none h-full w-full ${className}`}>

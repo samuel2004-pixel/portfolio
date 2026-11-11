@@ -23,7 +23,7 @@ export default async function ProjectPage({ params }: Props) {
   }
 
   return (
-    <main className="min-h-screen bg-white py-24">
+    <main className="min-h-screen bg-[#0F1629] py-24">
       <div className="max-w-5xl mx-auto px-6">
         <p className="uppercase tracking-[0.35em] text-sm text-gray-500">
           {project.category}

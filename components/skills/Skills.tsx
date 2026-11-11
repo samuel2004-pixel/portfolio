@@ -110,7 +110,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="bg-[#F7F5F2] py-36"
+      className="bg-[#0A0E1A] py-36"
     >
       <div className="relative mx-auto max-w-7xl px-8 lg:px-20">
 
@@ -128,17 +128,17 @@ export default function Skills() {
           viewport={{ once: true }}
           className="relative"
         >
-          <p className="text-xs font-semibold uppercase tracking-[.35em] text-[#9A7B53]">
+          <p className="text-xs font-semibold uppercase tracking-[.35em] text-[#22D3EE]">
             Skills
           </p>
 
-          <h2 className="mt-6 text-[38px] font-semibold leading-[1.05] tracking-[-0.04em] text-[#1D1D1B] sm:text-[46px] lg:text-[56px]">
+          <h2 className="mt-6 text-[38px] font-semibold leading-[1.05] tracking-[-0.04em] text-[#E6F1FF] sm:text-[46px] lg:text-[56px]">
             Technologies
             <br />
             I Work With.
           </h2>
 
-          <p className="mt-8 max-w-2xl text-lg leading-9 text-[#66645F]">
+          <p className="mt-8 max-w-2xl text-lg leading-9 text-[#94A3B8]">
             My technical stack focuses on Artificial Intelligence,
             Machine Learning, Generative AI, Data Science and modern
             software engineering.
@@ -164,26 +164,26 @@ export default function Skills() {
                 whileHover={{
                   y: -6,
                 }}
-                className="rounded-[30px] border border-[#E6E1D9] bg-white p-10 transition"
+                className="rounded-[30px] border border-[#1E2A44] bg-[#0F1629] p-10 transition"
               >
                 <div className="flex items-center gap-5">
 
-                  <div className="rounded-2xl bg-[#F6F2EB] p-4">
+                  <div className="rounded-2xl bg-[#0A0E1A] p-4">
 
                     <Icon
                       size={28}
-                      className="text-[#9A7B53]"
+                      className="text-[#22D3EE]"
                     />
 
                   </div>
 
                   <div>
 
-                    <h3 className="text-2xl font-semibold text-[#1D1D1B]">
+                    <h3 className="text-2xl font-semibold text-[#E6F1FF]">
                       {group.title}
                     </h3>
 
-                    <p className="mt-2 text-[#66645F]">
+                    <p className="mt-2 text-[#94A3B8]">
                       {group.description}
                     </p>
 
@@ -198,7 +198,7 @@ export default function Skills() {
                     <motion.span
                       key={skill}
                       whileHover={{ y: -3, scale: 1.05 }}
-                      className="rounded-full border border-[#E6E1D9] bg-[#FAF8F5] px-4 py-2 text-sm font-medium text-[#555] transition-colors hover:border-[#9A7B53] hover:bg-white"
+                      className="rounded-full border border-[#1E2A44] bg-[#0A0E1A] px-4 py-2 text-sm font-medium text-[#94A3B8] transition-colors hover:border-[#22D3EE] hover:bg-[#0F1629]"
                     >
                       {skill}
                     </motion.span>
